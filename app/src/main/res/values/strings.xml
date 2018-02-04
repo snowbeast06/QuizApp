@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">Quiz App</string>
+
+    <string name="quizTitle">Quiz</string>
+    <string name="quizDescription">This is some text that describes the quiz and gives some instructions.</string>
+
+    <string name="Question1">Question 1</string>
+    <string name="Question2">Question 2</string>
+    <string name="Question3">Question 3</string>
+    <string name="Question4">Question 4</string>
+    <string name="Question5">Question 5</string>
+    <string name="Question6">Question 6</string>
+
+    <string name="Question1Text">What is the answer to question 1?</string>
+    <string name="Question2Text">What is the answer to question 2?</string>
+    <string name="Question3Text">What is the answer to question 3?</string>
+    <string name="Question4Text">What is the answer to question 4?</string>
+    <string name="Question5Text">What is the answer to question 5?</string>
+    <string name="Question6Text">What is the answer to question 6?</string>
+
+    <string name="q1radio1">Answer 1</string>
+    <string name="q1radio2">Answer 2</string>
+    <string name="q1radio3">Answer 3</string>
+
+    <string name="q2radio1">Answer 1</string>
+    <string name="q2radio2">Answer 2</string>
+    <string name="q2radio3">Answer 3</string>
+
+    <string name="q3radio1">Answer 1</string>
+    <string name="q3radio2">Answer 2</string>
+    <string name="q3radio3">Answer 3</string>
+
+    <string name="q4radio1">Answer 1</string>
+    <string name="q4radio2">Answer 2</string>
+    <string name="q4radio3">Answer 3</string>
+
+    <string name="q5radio1">Answer 1</string>
+    <string name="q5radio2">Answer 2</string>
+    <string name="q5radio3">Answer 3</string>
+
+    <string name="q6radio1">Answer 1</string>
+    <string name="q6radio2">Answer 2</string>
+    <string name="q6radio3">Answer 3</string>
+
+
+    <string name="buttonText">Press Here to \nScore your Quiz</string>
+
 </resources>
