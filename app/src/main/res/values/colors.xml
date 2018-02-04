@@ -5,4 +5,5 @@
     <color name="colorPrimaryLight">#aab6fe</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorQuestionBackground">#e8eaf6</color>
+    <color name="colorBackgroundGrey">#70000000</color>
 </resources>

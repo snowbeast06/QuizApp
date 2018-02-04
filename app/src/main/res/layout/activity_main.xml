@@ -22,6 +22,11 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -36,7 +41,13 @@
                     android:layout_gravity="center"
                     android:layout_margin="20dp"
                     android:text="@string/quizDescription" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,14 +56,22 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question1" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
+
                     android:text="@string/Question1Text" />
 
                 <RadioGroup
@@ -79,6 +98,10 @@
                         android:text="@string/q1radio3" />
                 </RadioGroup>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
 
             </LinearLayout>
 
@@ -90,14 +113,21 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="4dp"
                     android:text="@string/Question2" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question2Text" />
 
                 <RadioGroup
@@ -125,6 +155,11 @@
 
                 </RadioGroup>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
             </LinearLayout>
 
 
@@ -135,14 +170,21 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="4dp"
                     android:text="@string/Question3" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question3Text" />
 
                 <RadioGroup
@@ -170,6 +212,11 @@
 
                 </RadioGroup>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
             </LinearLayout>
 
 
@@ -180,37 +227,53 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="4dp"
                     android:text="@string/Question4" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question4Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup4Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q4radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup4Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q4radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup4Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q4radio3" />
 
                 </RadioGroup>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
             </LinearLayout>
 
 
@@ -221,36 +284,53 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="4dp"
                     android:text="@string/Question5" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question5Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup5Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q5radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup5Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q5radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup5Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q5radio3" />
 
                 </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
             </LinearLayout>
 
 
@@ -261,36 +341,52 @@
                 android:background="@color/colorQuestionBackground"
                 android:orientation="vertical">
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:padding="4dp"
                     android:text="@string/Question6" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:padding="4dp"
                     android:text="@string/Question6Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup6Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q6radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup6Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q6radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup6Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q6radio3" />
 
                 </RadioGroup>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/colorBackgroundGrey" />
 
             </LinearLayout>
 

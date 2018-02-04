@@ -44,5 +44,8 @@
 
 
     <string name="buttonText">Press Here to \nScore your Quiz</string>
+    <string name="toastPart1">You got </string>
+    <string name="toastPart2"> questions correct!</string>
+
 
 </resources>
