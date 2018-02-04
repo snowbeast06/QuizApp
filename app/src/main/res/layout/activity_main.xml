@@ -56,20 +56,24 @@
                     android:text="@string/Question1Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup1Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q1radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup1Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q1radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup1Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q1radio3" />
@@ -97,20 +101,24 @@
                     android:text="@string/Question2Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup2Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q2radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup2Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q2radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup2Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q2radio3" />
@@ -138,20 +146,24 @@
                     android:text="@string/Question3Text" />
 
                 <RadioGroup
+                    android:id="@+id/radioGroup3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/radioGroup3Button1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q3radio1" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup3Button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q3radio2" />
 
                     <RadioButton
+                        android:id="@+id/radioGroup3Button3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/q3radio3" />
@@ -286,6 +298,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:onClick="calculateScore"
                 android:text="@string/buttonText" />
         </LinearLayout>
 
